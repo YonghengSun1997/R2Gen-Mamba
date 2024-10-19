@@ -1,0 +1,14 @@
+python main_plot.py \
+--image_dir /media/sun/DATA/data_2T/physionet.org/files/mimic-cxr-jpg/2.1.0/ \
+--ann_path /media/sun/DATA/data_2T/physionet.org/files/mimic-cxr-jpg/2.1.0/annotation.json \
+--dataset_name mimic_cxr \
+--max_seq_length 100 \
+--threshold 10 \
+--batch_size 1 \
+--epochs 30 \
+--save_dir results/mimic_cxr \
+--step_size 1 \
+--gamma 0.8 \
+--seed 456789 \
+--beam_size 1 \
+--load /home/sun/code/generate_report/code/R2Gen-mamba/results/mimic_cxr/model_best.pth

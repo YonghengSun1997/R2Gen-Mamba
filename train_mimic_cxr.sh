@@ -1,0 +1,12 @@
+python main_train.py \
+--image_dir /media/sun/DATA/data_2T/physionet.org/files/mimic-cxr-jpg/2.1.0/ \
+--ann_path /media/sun/DATA/data_2T/physionet.org/files/mimic-cxr-jpg/2.1.0/updated_mimic_annotation.json \
+--dataset_name mimic_cxr \
+--max_seq_length 100 \
+--threshold 10 \
+--batch_size 16 \
+--epochs 30 \
+--save_dir results/mimic_cxr_0912 \
+--step_size 1 \
+--gamma 0.8 \
+--seed 456789
