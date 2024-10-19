@@ -25,8 +25,9 @@ The pre-trained R2Gen-Mamba models on different datasets. You can download the m
 
 
 ## Datasets
-We use two datasets (IU X-Ray and [MIMIC-CXR][MIMIC-CXR_link]) in our paper.
+We use two datasets ([IU X-Ray][iu-xray_link] and [MIMIC-CXR][MIMIC-CXR_link]) in our paper.
 
+[iu-xray_link]:http://openi.nlm.nih.gov/
 [MIMIC-CXR_link]:https://physionet.org/content/mimic-cxr-jpg/2.1.0/
 
 ## Train
