@@ -47,3 +47,6 @@ Follow or [CheXbert](https://github.com/stanfordmlgroup/CheXbert) to extract the
 ## Visualization
 
 Run `python help.py` to visualize the attention maps on the MIMIC-CXR data.
+
+## Acknowledgements
+This project is developed based on [R2Gen](https://github.com/zhjohnchan/R2Gen), and we appreciate their original work and open-source contribution.
